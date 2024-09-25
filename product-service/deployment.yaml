@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: jagkeert/microservice:product-image
+        image: jagkeert/newmicro:productimage
         ports:
         - containerPort: 8080
         env:

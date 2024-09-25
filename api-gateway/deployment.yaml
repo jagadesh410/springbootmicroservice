@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: jagkeert/microservice:gateway-image
+        image: jagkeert/newmicro:gatewayimage
         ports:
         - containerPort: 8000

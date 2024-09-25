@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: inventory-service
-        image: jagkeert/microservice:inventory-image
+        image: jagkeert/newmicro:inventoryimage
         ports:
         - containerPort: 8083
         env:

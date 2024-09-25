@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: jagkeert/microservice:order-image
+        image: jagkeert/newmicro:orderimage
         ports:
         - containerPort: 8081
         env:
